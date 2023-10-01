@@ -1,0 +1,22 @@
+<!--================================================================================-->
+<!--TASK 3-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>JS DOM paragraph style</title>
+</head>
+<body>
+<p id="text">JavaScript Exercises - w3resource</p>
+  <button id="jsstyle" onclick="js_style()">Style</button>
+<script>
+function js_style() {
+  var p = document.getElementById("text");
+  p.style.fontSize = '24px'; 
+  p.style.fontFamily=' verdana'
+  p.style.color = 'white'; 
+  p.style.backgroundColor = 'black'; 
+}
+</script>
+</body>
+</html>
